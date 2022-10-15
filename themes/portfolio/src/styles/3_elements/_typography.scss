@@ -1,9 +1,11 @@
 h1,
 .h1 {
+  @extend .xl;
 }
 
 h2,
 .h2 {
+  @extend .lg;
 }
 
 h3,
@@ -28,4 +30,28 @@ blockquote,
 
 ul,
 ol {
+}
+
+.xl {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 80px;
+}
+
+.lg {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.md {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }

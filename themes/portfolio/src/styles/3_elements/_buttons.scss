@@ -15,4 +15,19 @@ a {
 }
 
 .button {
+  padding: 16px 48px;
+  border-radius: 4px;
+  @extend .md;
+
+  &--primary {
+    border: 1px solid $white;
+    background-color: $white;
+    color: $black;
+  }
+
+  &--secondary {
+    border: 1px solid $white;
+    background-color: transparent;
+    color: $grey-100;
+  }
 }

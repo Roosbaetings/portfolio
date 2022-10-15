@@ -1,11 +1,20 @@
 {% extends "base.twig" %}
-
+{% set image = Image(post.home_image) %}
 {% block content %}
 
 	<section class="home">
-		<div clas="home__background-img">
-			jospuehfpeifh
+		<div class="home__background-img" style="background-image: url({{image.src}})">
+			<div class="home__content">
+				<div class="home__text">
+					<h1>{{post.home_title}}</h1>
+					<h2>{{post.home_name}} <div class="grey-400">{{post.home_job}}</div></h2>
+				</div>
+				<div class="home__buttons">
+					<a class="button button--primary" href="{{post.home_primary_button.url}}">{{post.home_primary_button.title}}</a>
+					<a class="button button--secondary" href="{{post.home_secondary_button.url}}">{{post.home_secondary_button.title}}</a>
+				</div>
+			</div>
 		</div>
-	</section>
+	</section> 
 
 {% endblock %}

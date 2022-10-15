@@ -11,9 +11,11 @@ $base-size: 16px;
 // ** Breakpoints
 // $breakpoint-sm: 0; We don't have a minimum width for sm breakpoint
 $breakpoints: (
-  md: 1024px,
+  sm: 390px,
+  md: 768px,
   lg: 1440px,
   xl: 1920px,
+  xxl: 3840px,
 );
 
 /* *** *** *** *** *** *\
@@ -21,6 +23,10 @@ $breakpoints: (
 \* *** *** *** *** *** */
 
 $primary: red;
+$black: #0d0d12;
+$white: #ffffff;
+$grey-100: #f7f7f7;
+$grey-400: #6c727f;
 
 /* *** *** *** *** *** *\
  *  Spacings

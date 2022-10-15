@@ -52,3 +52,20 @@ Stack trace:
 #22 /www/kinsta/public/portfolio/index.php(17): require('...')
 #23 {main}
   thrown in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Loader/FilesystemLoader.php on line 265
+[15-Oct-2022 16:56:13 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:56:13 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:56:14 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:06 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:07 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:07 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:09 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:09 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:57:10 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:01 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:02 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:03 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:05 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:06 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:58:06 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:59:29 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257
+[15-Oct-2022 16:59:31 UTC] PHP Deprecated:  Method ReflectionParameter::isArray() is deprecated in /www/kinsta/public/portfolio/wp-content/plugins/timber-library/vendor/twig/twig/src/Node/Expression/CallExpression.php on line 257

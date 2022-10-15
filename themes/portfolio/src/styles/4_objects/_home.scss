@@ -1,5 +1,28 @@
 .home {
   &__background-img {
-    background-image: url("src/images/bigbackground_1.png");
+    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 84vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 24px;
   }
 }
