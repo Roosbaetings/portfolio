@@ -9,4 +9,4 @@ $post = new TimberPost();
 $context['post'] = $post;
 $context['page'] = 'default';
 
-Timber::render( array( 'page-templates/page.twig', 'post-templates/single.twig' ), $context );
+Timber::render( array( 'templates/page.twig'), $context );
