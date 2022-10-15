@@ -57,5 +57,11 @@
       "name": "Tim Logemann",
       "email": "tim@todaytomorrow.nl"
     }
-  ]
+  ],
+  "config": {
+    "allow-plugins": {
+      "ffraenz/private-composer-installer": true,
+      "composer/installers": true
+    }
+  }
 }
