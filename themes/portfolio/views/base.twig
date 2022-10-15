@@ -1,0 +1,50 @@
+{% block html_head_container %}
+
+{% include 'html-header.twig' %}
+	{% block head %}
+	{% endblock %}
+	</head>
+{% endblock %}
+
+	<body class="{{ body_class }}" data-template="base.twig" itemscope itemtype="http://schema.org/WebPage">
+
+		{% include 'parts/scripts/scripts-body.twig' %}
+
+		{# Main page header #}
+		{% include 'parts/header.twig' %}
+
+		{% if not password_required %}
+
+			<main id="content" role="main">
+				{% block content %}
+
+					{{ __('No content available.', 'bedrock') }}
+
+				{% endblock %}
+
+			</main>
+
+		{% else %}
+
+			<section class="section">
+				<div class="row">
+					<div class="columns">
+						{{ password_form }}
+					</div>
+				</div>
+			</section>
+
+		{% endif %}
+
+		{# footer stuff #}
+		{% block footer %}
+
+			{% include 'footer.twig' %}
+
+		{% endblock %}
+
+		{{ function('wp_footer') }}
+
+		{% include 'parts/scripts/scripts-footer.twig' %}
+	</body>
+</html>

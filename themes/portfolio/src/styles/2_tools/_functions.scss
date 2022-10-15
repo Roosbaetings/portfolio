@@ -1,0 +1,30 @@
+@use "sass:math";
+
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return math.div($number, $number * 0 + 1);
+  }
+
+  @return $number;
+}
+
+@function breakpoint-in-em($size) {
+	$breakpointPX: map-get($breakpoints, $size);
+	$bp: strip-unit($breakpointPX);
+	$bs: strip-unit($base-size);
+	@return math.div($bp, $bs) * 1em;
+}
+
+@function breakpoint-in-px($size) {
+	$breakpointPX: map-get($breakpoints, $size);
+	@return $breakpointPX;
+}
+
+@function rem($size) {
+	@if unitless($size) {
+		@return math.div($size * 1rem, strip-unit($base-size));
+	}
+	@else {
+		@return math.div($size * 1rem, $base-size);
+	}
+}

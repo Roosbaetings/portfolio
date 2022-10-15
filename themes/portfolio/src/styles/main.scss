@@ -1,0 +1,52 @@
+/*
+* ==========================================================================
+* Main Import File
+* ----------------
+* More information about ITCSS:
+* https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+* ==========================================================================
+
+* 1. Settings - Variables
+* ----------------------------------------------
+*/
+
+@import "1_settings/fonts";
+@import "1_settings/variables";
+
+/*
+* 2. Tools - Functions, Mixins, Helpers etc.
+* ----------------------------------------------
+*/
+@import "2_tools/functions";
+@import "2_tools/mixins";
+@import "2_tools/reset";
+
+/*
+* 3. Elements - Bare and basic elements
+* ----------------------------------------------
+*/
+@import "3_elements/buttons";
+@import "3_elements/forms";
+@import "3_elements/global";
+@import "3_elements/grid";
+@import "3_elements/typography";
+
+/*
+* 4. Objects - Layout Classes
+* ----------------------------------------------
+*/
+@import "4_objects/footer";
+@import "4_objects/navigation";
+@import "4_objects/page";
+@import "4_objects/post";
+
+/*
+* 5. Components - UI/Block Classes
+* ----------------------------------------------
+*/
+
+/*
+* 6. Trumps - IDs and !importants.
+* ----------------------------------------------
+*/
+@import "6_trumps/overrides";

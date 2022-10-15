@@ -1,0 +1,15 @@
+# Default WordPress bullshit
+**/twenty*
+uploads/
+plugins/
+
+# Dependency management
+vendor/
+node_modules/
+# Lol, not that we should ever use bower anymore, but let's ignore it to be safe.
+bower_components/
+
+# Theme specific files
+themes/**/dist/
+.env
+.env.local

@@ -1,0 +1,27 @@
+/* Include variables here */
+
+/* *** *** *** *** *** *\
+ *  Grid
+\* *** *** *** *** *** */
+
+// ** Base size
+// This is what all REM and EM sizes will be based on:
+$base-size: 16px;
+
+// ** Breakpoints
+// $breakpoint-sm: 0; We don't have a minimum width for sm breakpoint
+$breakpoints: (
+  md: 1024px,
+  lg: 1440px,
+  xl: 1920px,
+);
+
+/* *** *** *** *** *** *\
+ *  Colors
+\* *** *** *** *** *** */
+
+$primary: red;
+
+/* *** *** *** *** *** *\
+ *  Spacings
+\* *** *** *** *** *** */

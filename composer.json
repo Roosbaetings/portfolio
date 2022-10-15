@@ -1,0 +1,61 @@
+{
+  "name": "todaytomorrow/wordpress-starter",
+  "description": "Wordpress starter theme",
+  "type": "wordpress-theme",
+  "minimum-stability": "stable",
+  "require": {
+    "composer/installers": "~1.0",
+    "deliciousbrains-plugin/wp-migrate-db-pro": "*",
+    "wpackagist-plugin/classic-editor": "*",
+    "wpackagist-plugin/wordpress-seo": "*",
+    "wpackagist-plugin/regenerate-thumbnails": "*",
+    "wpackagist-plugin/svg-support": "*",
+    "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
+    "wpackagist-plugin/timber-library": "^1.19",
+    "advanced-custom-fields/advanced-custom-fields-pro": "*",
+    "vlucas/phpdotenv": "^5.4",
+    "stoutlogic/acf-builder": "^1.12"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "composer",
+      "url": "https://composer.deliciousbrains.com"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.12",
+        "type": "wordpress-plugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k={%ACF_PRO_KEY}&t={%version}"
+        },
+        "require": {
+          "ffraenz/private-composer-installer": "^5.0"
+        }
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "./mu-plugins/{$name}/": [
+        "type:wordpress-muplugin"
+      ],
+      "./plugins/{$name}/": [
+        "wpackagist-plugin/*",
+        "type:wordpress-plugin"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Tim Logemann",
+      "email": "tim@todaytomorrow.nl"
+    }
+  ]
+}
